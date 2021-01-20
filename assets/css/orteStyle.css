@@ -1,0 +1,74 @@
+.mainContainer{
+    background-image: url(../img/blockbg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 7%;
+    width: 100%;
+    height: 76%;
+    padding: 2%;
+}
+
+.orteContainer{
+    background-color: #e6e6e6;
+    position: absolute;
+    overflow-y: auto;
+    top: 10%;
+    left: 15%;
+    width: 70%;
+    height: 80%;
+    padding-left: 5%;
+}
+
+.orteContainer h1 {
+    font-size: 300%;
+}
+
+.orteContainer h2 {
+    font-size: 180%;
+}
+
+.orteContainer p {
+    float: left;
+}
+
+.orteContainer a {
+    text-decoration: none;
+    color: black;
+}
+
+.location{
+    width: 100%;
+    margin-bottom: 20px;
+    float: left;
+}
+.location hr {
+    width: 1px;
+    height: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    background: #181818;
+}
+
+.imgDiv {
+    float: left;
+    width: 49%;
+}
+
+.imgDiv img {
+    width: 90%;
+}
+.infoDiv {
+    padding-top: 5%;
+    padding-left: 5%;
+    float: left;
+    width: 48%;
+    height: 68%;
+}
+
+.infoDiv table{
+    width: 60%;
+
+}

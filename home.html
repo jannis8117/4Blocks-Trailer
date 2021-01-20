@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="assets/css/homeStyle.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="assets/js/script.js"></script>
+        <title>Home</title>
+    </head>
+    <body>
+        <header class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="home.html">4 Blocks</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="home.html">Home</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown"  href="mitwirkende.html">Mitwirkende
+                                <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="mitwirkende.html#hrollen">Hauptrollen</a></li>
+                                <li><a href="mitwirkende.html#nrollen">Nebenrollen</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="orte.html">Drehorte
+                                <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="orte.html#orte">Orte</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="projekt.html">Zum Projekt
+                                <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="projekt.html#projekt">Projektbeschreibung</a></li>
+                                <li><a href="projekt.html#inspiration">Inspiration</a></li>
+                                <li><a href="projekt.html#schwierigkeiten">Schwierigkeiten</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="mainContainer">
+                <div class="trailerContainer">
+                    <h1>Der Trailer</h1>
+                    <div class="vidDiv">
+                        <video controls loop>
+                            <source src="assets/img/demovid.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <hr>
+                    <div class="dataDiv">
+                        <p>
+                            <h4>4 Blocks</h4>
+                            <ul>
+                                <li>FSK 16</li>
+                                <li>2 min</li>
+                                <li>Crime, Drama</li>
+                                <li>TV Series</li>
+                                <li>27.01.2021 (Zürich)</li>
+                                <br><br>
+                                <a href="assets/img/demovid.mp4" download="trailer">Download Video</a>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+        <footer class="site-footer">
+            <p class="copyright-text">Copyright &copy; 2020</p>
+            <p> This website is only hosted for a school project and will be deleted after. </p>
+        </footer>
+    </body>
+</html>
