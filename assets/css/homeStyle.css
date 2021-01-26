@@ -16,7 +16,7 @@
     top: 10%;
     left: 15%;
     width: 70%;
-    height: 80%;
+    height: auto;
     padding: 10px;
 }
 
@@ -61,4 +61,46 @@
     margin-top: 5%;
     margin-left: 15%;
     font-size: 200%;
+}
+
+@media (max-width: 800px) {
+    .trailerContainer h1 {
+        font-weight: bold;
+    }
+
+    .trailerContainer hr {
+        width: 0px;
+        height: 0%;
+        float: left;
+        background: #181818;
+    }
+
+    .vidDiv {
+        float: left;
+        width: 57%;
+        outline: none;
+    }
+
+    .vidDiv video {
+        width: 100%;
+        outline: none;
+    }
+
+
+    .dataDiv {
+        float: left;
+        width: 25%;
+        height: 68%;
+    }
+
+    .dataDiv li {
+        font-size: 100%;
+        margin-left: 0%;
+    }
+    .dataDiv h4 {
+        font-weight: bold;
+        margin-top: 2%;
+        margin-left: 10%;
+        font-size: 150%;
+    }
 }
