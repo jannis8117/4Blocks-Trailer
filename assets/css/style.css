@@ -37,6 +37,20 @@ main {
     margin:0;
 }
 
+ul.dropdown-menu{
+    background-color: #181818;
+    color: white !important;
+}
+
+.dropdown:hover .dropdown-menu>li>a:hover{
+    color: white !important;
+    background-color: #181818;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    color: #9d9d9d;
+}
+
 @media (max-width: 800px) {
     .site-footer {
         font-size: 13px;
@@ -58,19 +72,4 @@ main {
     .site-footer .copyright-text, .site-footer {
         text-align: center;
     }
-}
-
-
-ul.dropdown-menu{
-    background-color: #181818;
-    color: white !important;
-}
-
-.dropdown:hover .dropdown-menu>li>a:hover{
-    color: white !important;
-    background-color: #181818;
-}
-
-.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
-    color: #9d9d9d;
 }
