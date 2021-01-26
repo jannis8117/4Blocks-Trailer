@@ -37,9 +37,22 @@ main {
     margin:0;
 }
 
-@media (max-width:767px) {
+@media (max-width: 800px) {
     .site-footer {
+        font-size: 13px;
         padding-bottom: 0;
+
+    }
+
+    .site-footer .copyright-text, .site-footer {
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .site-footer {
+        font-size: 11px;
+
     }
 
     .site-footer .copyright-text, .site-footer {
