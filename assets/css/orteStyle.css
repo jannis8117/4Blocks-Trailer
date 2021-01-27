@@ -72,3 +72,50 @@
     width: 60%;
 
 }
+
+@media (max-width: 800px){
+    .mainContainer{
+        display: block;
+        width: 100%;
+    }
+
+    .orteContainer{
+        padding-right: 5%;
+    }
+
+    .orteContainer h1 {
+        font-size: 300%;
+    }
+
+    .orteContainer h2 {
+        font-size: 180%;
+    }
+
+
+
+    .location{
+        width: 100%;
+    }
+    .location hr {
+        width: 0;
+        height: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .imgDiv {
+        width: 100%;
+    }
+
+    .imgDiv img {
+        width: 100%;
+    }
+    .infoDiv {
+        width: 100%;
+    }
+
+    .infoDiv table{
+        width: 100%;
+
+    }
+}
