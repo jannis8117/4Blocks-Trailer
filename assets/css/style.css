@@ -54,7 +54,7 @@ ul.dropdown-menu{
 @media (max-width: 800px) {
     .site-footer {
         font-size: 13px;
-        padding-bottom: 0;
+        padding: 0;
 
     }
 

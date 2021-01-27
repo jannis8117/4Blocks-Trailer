@@ -11,15 +11,5 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-@media (max-width: 800px) {
-    .bg {
-        background-image: url("../img/indexBG.jpg");
-        width: 100%;
-        background-color: #181818;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+    position: relative;
 }
